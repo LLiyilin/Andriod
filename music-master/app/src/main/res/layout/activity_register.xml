@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/my_c1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_marginTop="80dp"
+        android:layout_height="match_parent"
+        tools:context="com.example.vijoz.game.MainActivity">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:padding="20dp"
+            android:text="注册账号"
+            android:textColor="#efefef"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_marginBottom="30dp"
+            android:layout_width="match_parent"
+            android:background="#676767"
+            android:layout_height="1px"/>
+
+        <TableRow>
+
+            <TextView />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/user"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:gravity="end"
+                android:text="帐号： "
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/input1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_weight="2"
+                android:background="@drawable/bg_round_white"
+                android:hint="请输入帐号"
+                android:lines="1"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:textColor="#5f5f5f"
+                />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView />
+        </TableRow>
+
+        <TableRow android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:gravity="end"
+                android:text="密码： "
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/input2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_weight="2"
+                android:background="@drawable/bg_round_white"
+                android:hint="请输入密码"
+                android:inputType="textPassword"
+                android:lines="1"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:textColor="#5f5f5f" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView />
+        </TableRow>
+
+        <TableRow android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/password2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:gravity="end"
+                android:text="确认："
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/input3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_weight="2"
+                android:background="@drawable/bg_round_white"
+                android:hint="再输入一次密码"
+                android:inputType="textPassword"
+                android:lines="1"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:textColor="#5f5f5f" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView />
+        </TableRow>
+
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginRight="20dp"
+            android:text="注册"
+            android:textColor="#333"
+            android:textSize="16sp" />
+
+
+    </TableLayout>
+
+
+    <TextView
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:padding="20dp"
+        android:text="返回"
+        android:textSize="16sp" />
+
+</RelativeLayout>
+

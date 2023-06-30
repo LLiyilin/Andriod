@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">music</string>
+    <string name="welcome_back">欢迎回来</string>
+
+    <!-- 歌曲列表的Json数据 -->
+    <string name="free_music_json">
+	    "{\"albumId\":\"001\",\"title\":\"专辑\",\"summary\":\"\",\"artist\":{\"name\":\"简介\"},
+        \"coverImg\":\"https://img1.doubanio.com/view/thing_review/l/public/p668360.jpg\",
+        \"musics\":
+
+        [{\"musicId\":\"001\",\"title\":\"朴树 - 且听风吟\",\"artist\":{\"name\":\"《生如夏花》\"},
+        \"coverImg\":\"https://img1.doubanio.com/view/thing_review/l/public/p668360.jpg\",
+        \"url\":\"qtfy.mp3\"},
+
+        {\"musicId\":\"002\",\"title\":\"许巍 - 时光\",\"artist\":{\"name\":\"《时光·漫步》\"},
+        \"coverImg\":\"https://image.huanghepiao.com/d/file/20200202/ec6465beafd659858e34285e4caa95f2.jpeg\",
+        \"url\":\"sg.mp3\"},
+
+        {\"musicId\":\"003\",\"title\":\"宝马鸣叫\",\"artist\":{\"name\":\"《在线测试音频》\"},
+        \"coverImg\":\"https://p4.ssl.cdn.btime.com/t017c5a49468974f18c.jpg\",
+        \"url\":\"https://www.runoob.com/try/demo_source/horse.mp3\"}]}"
+    </string>
+
+    <string name="play">播放</string>
+
+    <string name="recently">音乐播放器</string>
+
+</resources>
